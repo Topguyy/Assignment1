@@ -8,6 +8,14 @@
     android:background="#7FFFD4"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
+    
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/nameTxt"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_1"
+        />
 
     <TextView
         android:text="Name : Mohamed El Tobgui"
